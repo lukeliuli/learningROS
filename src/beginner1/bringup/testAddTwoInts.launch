@@ -1,0 +1,23 @@
+<launch>
+   <node name="server" pkg="beginner1" type="add_two_ints_server.py" />
+
+    <param name="global_param" value="liuli" />
+      <group ns="foo">
+    	<param name="foo1" value="Hello World" />
+    	<param name="foo2" value="params:gains,server/topic_name" />
+
+   
+	    <group ns="gains">
+	      <param name="P" value="1.0" />
+	      <param name="I" value="2.0" />
+	      <param name="D" value="3.0" /> 
+	    </group>
+
+	<node name="server" pkg="beginner1" type="add_two_ints_server.py" >
+		<param name="topic_name" value="liuli" />
+	</node>
+
+  </group>
+
+</launch>
+

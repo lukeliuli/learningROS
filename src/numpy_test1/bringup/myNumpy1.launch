@@ -1,0 +1,4 @@
+<launch>
+    <node name="listener" pkg="numpy_test1" type="numpy_listener.py" />
+    <node name="talker"   pkg="numpy_test1" type="numpy_talker.py" />
+</launch>

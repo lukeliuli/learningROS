@@ -1,0 +1,4 @@
+<launch>
+    <node name="read2pub" pkg="ros_opencvjpg1" type="read2pub.py" />
+     <node name="listener" pkg="ros_opencvjpg1" type="listener.py" />
+</launch>

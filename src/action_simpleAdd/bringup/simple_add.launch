@@ -1,0 +1,4 @@
+<launch>
+     <node name="actionclient_add"   pkg="action_simpleAdd" type="action_client.py" />
+     <node name="actionserver_add"   pkg="action_simpleAdd" type="action_server.py" />
+</launch>

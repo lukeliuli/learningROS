@@ -1,0 +1,4 @@
+TrajectoryPlannerROS:
+  max_vel_x: 0.5
+  path_distance_bias: 1
+  goal_distance_bias: 0.8  

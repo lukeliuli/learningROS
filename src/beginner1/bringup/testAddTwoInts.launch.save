@@ -1,0 +1,4 @@
+<launch>
+    <node name="server" pkg="beginner1" type="add_two_ints_server.py" />
+
+</launch>
